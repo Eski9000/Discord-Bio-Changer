@@ -73,7 +73,6 @@ def change(tokens):
         if response.status_code == 401:
             print(f"{Fore.RED}Failed to change bio due to invalid token >  " + token)
 change(tokens)
-print("pow helped :) me still learning")
 end = timer()
 while True:
     if threading.active_count() < 13: #number off threads
